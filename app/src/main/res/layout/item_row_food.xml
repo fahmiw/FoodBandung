@@ -13,6 +13,7 @@
     card_view:cardCornerRadius="4dp">
 
     <RelativeLayout
+        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -42,6 +43,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 tools:text="@string/food_name" />
@@ -52,6 +54,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:textColor="@color/white"
                 android:ellipsize="end"
                 android:maxLines="2"
                 tools:text="@string/food_detail" />

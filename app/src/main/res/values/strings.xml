@@ -2,4 +2,7 @@
     <string name="app_name">Bandung Food</string>
     <string name="food_name">Nama Makanan</string>
     <string name="food_detail">Detail</string>
+    <string name="nameProfile">Fahmi Widianto</string>
+    <string name="email_profile">fahmiwidianto2099@gmail.com</string>
+    <string name="about_me">About Me</string>
 </resources>
