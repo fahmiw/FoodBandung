@@ -1,4 +1,6 @@
-package com.example.bandungfood;
+package com.example.bandungfood.data;
+
+import com.example.bandungfood.R;
 
 import java.util.ArrayList;
 

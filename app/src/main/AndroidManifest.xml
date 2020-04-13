@@ -19,14 +19,21 @@
 
         <activity
                     android:theme="@style/SecondTheme"
-                    android:name=".About"
+                    android:name=".model.About"
                     android:label="About Me"
                     android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
+        <activity   android:name=".model.DetailFood"
+                    android:theme="@style/SecondTheme"
+                    android:label="Detail Food"
+                    android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
     </application>
 
 </manifest>

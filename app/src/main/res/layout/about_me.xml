@@ -17,10 +17,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
         android:layout_below="@id/toolbar"
         android:scaleType="fitXY"
-        android:src="@drawable/img_bg_photo" />
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_cloud"/>
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_img"
@@ -33,14 +33,14 @@
             android:layout_width="70dp"
             android:layout_height="300dp"
             android:rotation="270"
-            android:layout_marginStart="170dp"
+            android:layout_marginStart="300dp"
             android:layout_marginTop="280dp"
             android:src="@drawable/rectangle"/>
+
         <ImageView
             android:layout_width="70dp"
             android:layout_height="300dp"
             android:rotation="270"
-            android:layout_marginStart="170dp"
             android:layout_marginTop="360dp"
             android:src="@drawable/rectangle"/>
         <TextView
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/email_profile"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="45dp"
             android:textSize="18sp"
             android:textColor="@color/white"
             android:textAlignment="center"

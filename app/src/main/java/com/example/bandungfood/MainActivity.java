@@ -9,6 +9,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.bandungfood.adapter.CardViewFoodAdapter;
+import com.example.bandungfood.data.Food;
+import com.example.bandungfood.data.FoodData;
+import com.example.bandungfood.model.About;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +35,18 @@ public class MainActivity extends AppCompatActivity {
         rvFood.setLayoutManager(new LinearLayoutManager(this));
         CardViewFoodAdapter cardViewFoodAdapter = new CardViewFoodAdapter(foodArrayList);
         rvFood.setAdapter(cardViewFoodAdapter);
+
+        /**
+         * Cara lain passing data dengan parcelable
+         */
+//        cardViewFoodAdapter.setOnItemClickCallback(new CardViewFoodAdapter.OnItemClickCallback() {
+//            @Override
+//            public void onItemClicked(Food data) {
+////                Intent moveDetail = new Intent(MainActivity.this, DetailFood.class);
+////                moveDetail.putExtra(DetailFood.FOOD_ITEM, data);
+////                startActivity(moveDetail);
+//            }
+//        });
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,11 +60,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setMode(int itemId) {
-        switch (itemId){
-            case R.id.about:
-                Intent moveIntent = new Intent(MainActivity.this, About.class);
-                startActivity(moveIntent);
-                break;
+        if (itemId == R.id.about) {
+            Intent moveIntent = new Intent(MainActivity.this, About.class);
+            startActivity(moveIntent);
         }
     }
 

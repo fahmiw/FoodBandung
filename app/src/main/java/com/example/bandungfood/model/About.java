@@ -1,13 +1,10 @@
-package com.example.bandungfood;
+package com.example.bandungfood.model;
 
-import android.content.Context;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.res.ResourcesCompat;
+
+import com.example.bandungfood.R;
 
 public class About extends AppCompatActivity {
     @Override
