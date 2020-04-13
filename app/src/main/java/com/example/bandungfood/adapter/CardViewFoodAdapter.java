@@ -59,6 +59,9 @@ public class CardViewFoodAdapter extends RecyclerView.Adapter<CardViewFoodAdapte
                 bundle.putInt("img", food.getPhoto());
                 bundle.putString("name", food.getName());
                 bundle.putString("detail", food.getDetail());
+                bundle.putString("price", food.getPrice());
+                bundle.putString("recipe", food.getRecipe());
+                bundle.putString("link", food.getLink());
                 Intent intent = new Intent(v.getContext(), DetailFood.class);
                 intent.putExtras(bundle);
                 v.getContext().startActivity(intent);

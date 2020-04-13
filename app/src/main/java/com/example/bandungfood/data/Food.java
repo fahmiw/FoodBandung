@@ -6,7 +6,34 @@ import android.os.Parcelable;
 public class Food{
     private String name;
     private String detail;
+    private String price;
+    private String recipe;
+    private String link;
     private int photo;
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getRecipe() {
+        return recipe;
+    }
+
+    public void setRecipe(String recipe) {
+        this.recipe = recipe;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
 
 
     public String getName() {

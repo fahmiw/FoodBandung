@@ -5,4 +5,10 @@
     <string name="nameProfile">Fahmi Widianto</string>
     <string name="email_profile">fahmiwidianto2099@gmail.com</string>
     <string name="about_me">About Me</string>
+    <string name="harga">Price</string>
+    <string name="more_photos">More Photos</string>
+    <string name="description">Description</string>
+    <string name="recipe">Recipe</string>
+    <string name="this_is_recipe">this is recipe</string>
+    <string name="this_is_description">this is description</string>
 </resources>
